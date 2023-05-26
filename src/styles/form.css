@@ -1,0 +1,39 @@
+.header__next-class-modal-controller {
+  width: 500px;
+  height: 380px;
+  border: 0;
+  padding: 0;
+}
+
+.header__next-class-modal-container {
+  width: 500px;
+  height: 380px;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--color-gray-1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header__next-class-modal-controller::backdrop {
+  background-color: rgba(0, 0, 0, 0.641);
+}
+
+input {
+  width: 448px;
+  height: 60px;
+  background-color: var(--color-gray-0);
+  border: 1px solid transparent;
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

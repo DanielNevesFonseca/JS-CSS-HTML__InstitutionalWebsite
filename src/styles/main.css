@@ -1,0 +1,126 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__info {
+  margin-top: 100px;
+  height: 780px;
+  background-color: var(--color-gray-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+.main__info > h1 {
+  margin-top: 250px;
+}
+
+.main__info > h1 span {
+  color: var(--primary-color);
+} 
+
+.main__about {
+  background-color: var(--color-gray-0);
+  height: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main__about > h2{
+  width: 473px;
+}
+
+.main__about > p{
+  width: 614px;
+}
+
+.main__frequent-doubts {
+  height: 1175px;
+  background-color: var(--color-gray-1);
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__frequent-doubts .left-container{
+  width: 473px;
+  margin-top: 86px;
+}
+
+.main__frequent-doubts .right-container{
+  width: 614px;
+  margin-top: 86px;
+}
+
+.main__frequent-doubts .left-container > div {
+  display: flex;
+  flex-direction: column;
+  height: 271px;
+  gap: 32px;
+}
+
+.main__frequent-doubts .left-container > div > button {
+  width: 50%;
+}
+
+.main__frequent-doubts .right-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.main__frequent-doubts .right-container > div > h3 {
+  text-align: center;
+}
+
+.main__reviews {
+  width: 100%;
+  height: 1040px;
+  background-color: var(--color-gray-1);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main__student-reviews, .main__general-review {
+  margin-top: 100px;
+}
+
+.main__student-reviews {
+  width: 746px;
+}
+
+.main__general-review {
+  
+  width: 440px;
+  height: 50%;
+  padding: 60px 52px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  gap: 32px;
+}
+
+.main__student-reviews div {
+  display: flex;
+  width: 700px;
+  margin-bottom: 100px;
+}
+
+.main__student-reviews div > span {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  gap: 10px;
+}
+
+.main__student-reviews div > p {
+  width: 492px;
+}
+
+
+

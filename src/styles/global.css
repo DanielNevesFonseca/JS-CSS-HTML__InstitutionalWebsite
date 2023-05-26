@@ -1,0 +1,19 @@
+* {
+  font-family: var(--primary-font-family);
+}
+
+:root {
+  --primary-color: #4C6EF5;
+  --secondary-color: #364FC7;
+  --color-gray-0: #191C1F;
+  --color-gray-1: #212529;
+  --color-gray-2: #343A40;
+  --color-gray-3: #ADB5BD;
+  --color-gray-4: #CED4DA;
+  --color-gray-5: #F8F9FA;
+
+  --primary-font-family: 'Inter', sans-serif;
+}
+
+
+

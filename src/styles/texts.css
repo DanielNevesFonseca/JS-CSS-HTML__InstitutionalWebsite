@@ -1,0 +1,50 @@
+.text-1,
+.text-2,
+.text-3,
+.title-1,
+.title-2,
+.title-3 {
+  color: var(--color-gray-5);
+}
+
+.title-1,
+.title-2 {
+  font-weight: 600;
+}
+
+.title-3,
+.text-1,
+.text-2,
+.text-3 {
+  font-weight: 400;
+}
+
+.title-1 {
+  font-size: 52px;
+  line-height: 72px;
+}
+
+.title-2 {
+  font-size: 40px;
+  line-height: 64px;
+}
+
+.title-3 {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.text-1 {
+  font-size: 28px;
+  line-height: 44px;
+}
+
+.text-2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text-3 {
+  font-size: 18px;
+  line-height: 27px;
+}
