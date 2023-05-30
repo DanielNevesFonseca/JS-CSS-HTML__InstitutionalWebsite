@@ -15,5 +15,30 @@
   --primary-font-family: 'Inter', sans-serif;
 }
 
+/* ScrollBar of body*/
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
 
+::-webkit-scrollbar-track {
+  background: var(--color-gray-1); /* Cor de fundo da barra de rolagem */
+}
 
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); /* Cor do indicador da barra de rolagem */
+}
+
+/* Altera a cor de fundo da barra de rolagem */
+::-moz-scrollbar {
+  background-color: red;
+}
+
+/* Altera a cor do polegar (a parte móvel da barra de rolagem) */
+::-moz-scrollbar-thumb {
+  background-color: blue;
+}
+
+/* Altera a cor do fundo do trilho (a área onde o polegar se move) */
+::-moz-scrollbar-track {
+  background-color: green;
+}

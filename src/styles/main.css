@@ -1,126 +1,205 @@
 .main {
-  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .main__info {
-  margin-top: 100px;
-  height: 780px;
+  margin-top: 6.25rem;
+  height: 48.75rem;
   background-color: var(--color-gray-1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 44px;
+  gap: 2.75rem;
+  max-width: 100%;
 }
 
-.main__info > h1 {
-  margin-top: 250px;
+.main__info>h1 {
+  margin-top: 15.625rem;
+  text-align: center;
 }
 
-.main__info > h1 span {
+.main__info>h1 span {
   color: var(--primary-color);
-} 
+}
 
 .main__about {
   background-color: var(--color-gray-0);
-  height: 285px;
+  height: 17.8125rem;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.main__about > h2{
-  width: 473px;
+.main__about>h2 {
+  width: 29.5625rem;
 }
 
-.main__about > p{
-  width: 614px;
+.main__about>p {
+  width: 38.375rem;
+  text-align: center;
 }
 
 .main__frequent-doubts {
-  height: 1175px;
+  height: 73.4375rem;
   background-color: var(--color-gray-1);
   display: flex;
   justify-content: space-around;
 }
 
-.main__frequent-doubts .left-container{
-  width: 473px;
-  margin-top: 86px;
+.main__frequent-doubts .left-container {
+  width: 29.5625rem;
+  margin-top: 5.375rem;
 }
 
-.main__frequent-doubts .right-container{
-  width: 614px;
-  margin-top: 86px;
+.main__frequent-doubts .right-container {
+  width: 38.375rem;
+  margin-top: 5.375rem;
 }
 
-.main__frequent-doubts .left-container > div {
+.main__frequent-doubts .left-container>div {
   display: flex;
   flex-direction: column;
-  height: 271px;
-  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  height: 16.9375rem;
+  gap: 2rem;
 }
 
-.main__frequent-doubts .left-container > div > button {
+.main__frequent-doubts .left-container>div>button {
   width: 50%;
 }
 
-.main__frequent-doubts .right-container > div {
+.main__frequent-doubts .right-container>div {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  margin-bottom: 60px;
+  gap: 2rem;
+  margin-bottom: 3.75rem;
 }
 
-.main__frequent-doubts .right-container > div > h3 {
+.main__frequent-doubts .right-container>div>h3 {
   text-align: center;
 }
 
 .main__reviews {
   width: 100%;
-  height: 1040px;
-  background-color: var(--color-gray-1);
+  height: 65rem;
+  background-color: var(--color-gray-0);
   display: flex;
   justify-content: space-evenly;
 }
 
-.main__student-reviews, .main__general-review {
-  margin-top: 100px;
+.main__student-reviews,
+.main__general-review {
+  margin-top: 6.25rem;
 }
 
 .main__student-reviews {
-  width: 746px;
+  width: 46.625rem;
 }
 
 .main__general-review {
-  
-  width: 440px;
+
+  width: 27.5rem;
   height: 50%;
-  padding: 60px 52px;
+  padding: 3.75rem 3.25rem;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
-  flex-wrap:nowrap;
-  gap: 32px;
+  flex-wrap: nowrap;
+  gap: 2rem;
 }
 
 .main__student-reviews div {
   display: flex;
-  width: 700px;
-  margin-bottom: 100px;
+  width: 43.75rem;
+  margin-bottom: 6.25rem;
 }
 
-.main__student-reviews div > span {
+.main__student-reviews div>span {
   display: flex;
   flex-direction: column;
-  width: 290px;
-  gap: 10px;
+  width: 18.125rem;
+  gap: 0.625rem;
 }
 
-.main__student-reviews div > p {
-  width: 492px;
+.main__student-reviews div>p {
+  width: 30.75rem;
+  max-width: 100%;
 }
 
+/* ============== Mobile Screen Devices ================*/
 
+@media (max-width:380px) {
+  .main__info>div>p {
+    padding: 0.5rem 1.25rem;
+  }
 
+  .main__about {
+    flex-direction: column;
+    height: auto;
+    padding: 3.125rem 0;
+  }
+
+  .main__about>h2 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .main__about>p {
+    max-width: 100%;
+    padding: 0.9375rem;
+  }
+
+  .main__frequent-doubts {
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    padding: 1.125rem 0;
+  }
+
+  .main__frequent-doubts .left-container,
+  .main__frequent-doubts .right-container {
+    width: 100%;
+  }
+
+  .main__frequent-doubts .left-container>div {
+    padding: 0.9375rem;
+
+  }
+
+  .main__reviews  {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main__student-reviews {
+    max-width: 100%;
+  }
+  
+  .main__student-reviews ul li div {
+    max-width: 100%;
+  }
+
+  .main__student-reviews ul li div span {
+    width: 100%;
+    margin-bottom: 1.5625rem;
+  }
+
+  .main__student-reviews ul li div p{
+    padding: 0 0.9375rem ;
+  }
+
+  .main__student-reviews div {
+    flex-direction: column;
+  }
+
+  .main__general-review {
+    max-width: 95%;
+  }
+}

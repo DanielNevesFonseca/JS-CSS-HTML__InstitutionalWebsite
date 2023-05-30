@@ -18,9 +18,6 @@ button {
   border: 1px solid transparent;
 }
 
-.header__btn-register-next-class-2:hover,  .main__btn-about:hover{
-  background-color: var(--secondary-color);
-}
 
 .header__btn-register {
   background-color: var(--primary-color);
@@ -36,4 +33,24 @@ button {
 
 .header__btn-close-tab:hover, .header__btn-register:hover {
   background-color: var(--secondary-color);
+}
+
+.main__btn-register-next-class {
+  background-color: var(--primary-color);
+}
+
+.main__btn-register-next-class:hover,  .main__btn-about:hover{
+background-color: var(--secondary-color);
+}
+
+
+@media (max-width: 380px){
+  .header__btn-register-next-class {
+    display: none;
+  }
+
+  .main__btn-about {
+    padding: 0.3125rem 0.9375rem;
+    font-size: 0.7rem;
+  }
 }

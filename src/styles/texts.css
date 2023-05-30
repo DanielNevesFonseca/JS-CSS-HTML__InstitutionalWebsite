@@ -20,31 +20,72 @@
 }
 
 .title-1 {
-  font-size: 52px;
-  line-height: 72px;
+  font-size: 3.25rem;
+  line-height: 4.5rem;
 }
 
 .title-2 {
-  font-size: 40px;
-  line-height: 64px;
+  font-size: 2.5rem;
+  line-height: 4rem;
 }
 
 .title-3 {
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
 }
 
 .text-1 {
-  font-size: 28px;
-  line-height: 44px;
+  font-size: 1.75rem;
+  line-height: 2.75rem;
 }
 
 .text-2 {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 .text-3 {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+}
+
+@media (max-width: 380px) {
+  .title-1 {
+    font-size: 2.75rem;
+    line-height: 4.5rem;
+  }
+
+  .title-2 {
+    font-size: 2.0rem;
+    line-height: 3.5rem;
+  }
+
+  .title-3 {
+    font-size: 1.6rem;
+    line-height: 2.25rem;
+  }
+
+  .text-1 {
+    font-size: 1.45rem;
+    line-height: 2.35rem;
+  }
+
+  .text-2 {
+    font-size: 1.05rem;
+    line-height: 1.375rem;
+  }
+
+  .text-3 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .text-1,
+  .text-2,
+  .text-3,
+  .title-1,
+  .title-2,
+  .title-3 {
+    text-align: center;
+  }
 }

@@ -1,7 +1,8 @@
 .footer {
-  height: 120px;
+  height: 7.5rem;
   width: 100%;
   background-color: var(--color-gray-0);
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
 }
+
